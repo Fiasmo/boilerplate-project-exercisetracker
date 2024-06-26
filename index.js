@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 });
 
 
+app.post("/api/users", (req, res) => {
+  req.body.username;
+})
+
 
 
 
